@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzportal - Geldanlagen</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Finanzportal</h1>
+        <p>Informationen zu verschiedenen Geldanlageformen</p>
+    </header>
+
+    <nav>
+        <button class="filter-btn active" data-category="all">Alle</button>
+        <button class="filter-btn" data-category="aktien">Aktien</button>
+        <button class="filter-btn" data-category="etfs">ETFs</button>
+        <button class="filter-btn" data-category="krypto">Krypto</button>
+        <button class="filter-btn" data-category="anleihen">Anleihen</button>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Über Geldanlagen</h2>
+            <p>Hier finden Sie Informationen zu verschiedenen Anlageformen...</p>
+        </section>
+
+        <section class="investments-container">
+            <!-- Hier werden die Anlagen dynamisch eingefügt -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Projekt von Paul D., Shayan A., Karim K.</p>
+        <p>Letzte Aktualisierung: <span id="update-time"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
